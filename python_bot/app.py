@@ -37,6 +37,6 @@ class InstagramBot:
                 except Exception as ex:
                     time.sleep(60)
 
-ed = InstagramBot('babis.papadakis1', 'Papadakis1**')
+ed = InstagramBot('username', 'password')
 ed.login()
 ed.like_post('fashion')
